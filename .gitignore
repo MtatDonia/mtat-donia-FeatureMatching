@@ -1,0 +1,44 @@
+# .gitignore
+
+# Ignorer les fichiers binaires, les fichiers d'assemblage et les fichiers temporaires
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Ignorer les fichiers de configuration de Visual Studio
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# Ignorer les fichiers de cache de ReSharper
+_ReSharper*/
+
+# Ignorer les fichiers de packages NuGet
+packages/
+
+# Ignorer les fichiers de build générés
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Ll]og/
+[Ll]ogs/
+
+# Ignorer le répertoire testResults
+testResults/
+
+# Ignorer le répertoire NUnit
+_nunit/
+
+# Ignorer les fichiers Visual Studio
+*.VisualState.xml
